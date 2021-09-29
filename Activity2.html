@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Pete's Pizza Delivery</title>
+</head>
+<body>
+<div style="text-align: center;">
+<h1>Pete's Pizza Delivery</h1>
+<h2>Online Order Form</h2>
+<p>*required fields</p>
+<form action="" method="Post">
+<div style="display:inline-block; text-align: left; float:center">
+<p>
+<div style="float: left; margin: 2em; width: 40em;">
+<fieldset>
+<legend>Customer Details</legend>             
+
+	*Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input style="margin-left: 1em" type="text" name="cus_name" required /><br><br>
+	*Address:&nbsp&nbsp<input style="margin-left: 3em"  type="text" name="cus_address" size="30" required /><br><br>
+        *Town/city: &nbsp<input style="margin-left: 2em" type="text" name="cus_city" required /><br><br>
+	*Postcode: &nbsp&nbsp&nbsp<input style="margin-left: 2em"  type="text" name="cus_postcode" required /><br><br>
+        *Tel: &nbsp&nbsp&nbsp<input style="margin-left: 5em"  type="text" name="cus_address" required /><br><br>
+	*Email: &nbsp&nbsp<input style="margin-left: 4em" type="Email" name="cus_address" size="50" required /><br><br>
+</fieldset>
+</div>	
+<br>        
+<div style="float: left; margin: 2em; width: 11em;">
+<fieldset>
+<legend>Topping*</legend>
+<input type="radio" name="topping" value="Margherita" required/>Margherita<br>
+<input type="radio" name="topping" value="Four Seasons" required/>Four Seasons<br>
+<input type="radio" name="topping" value="Meat Feast" required/>Meat Feast<br><br>
+</fieldset>
+</div>
+<div style="float: left; margin: 2em; width: 10em;">
+<fieldset>
+<legend>Size</legend>
+<input type="radio" name="size" value="Small" required/>Small<br>
+<input type="radio" name="size" value="Medium" required/>Medium<br>
+<input type="radio" name="size" value="Large" required/>Large<br>
+<br>
+</fieldset>
+</div>
+<div style="float: left; margin: 2em; width: 11em; ">
+<fieldset>
+<legend>Extras</legend>
+<input type="checkbox" name="extras" value="Mushrooms" required/> Mushrooms<br>
+<input type="checkbox" name="extras" value="Green Peppers" required /> Green Peppers<br>
+<input type="checkbox" name="extras" value="Anchovies" required /> Anchovies<br>
+<input type="checkbox" name="extras" value="Extra Cheese" required/> Extra Cheese<br>
+</fieldset>
+</div>
+<br>
+<div style="float: center; margin: 2em; width: 40em;">
+<fieldset>
+<legend>Size</legend>
+<label for="id1" style="text-align:right;">Preferred delivery time:</label><input style="margin-left: 1em" type="time" name="user_time" /><br>
+Delivery Instructions:<br><textarea rows="4" cols="80"> </textarea><br>
+</fieldset></div>
+</div>
+<p><input type="submit" value="Submit order" />
+</p>
+</div>
+
+</form>	
+</body>
+</html>
+
